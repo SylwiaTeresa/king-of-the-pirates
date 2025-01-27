@@ -1,0 +1,1 @@
+import "./CharacterCard.scss";
