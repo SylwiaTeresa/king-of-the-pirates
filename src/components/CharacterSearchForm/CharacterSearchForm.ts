@@ -1,1 +1,0 @@
-import "./CharacterSearchForm.scss";
