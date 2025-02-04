@@ -1,3 +1,5 @@
+export type OnePiece = Boat | Fruit;
+
 export type Boat = {
     id: number;
     name: string;
@@ -39,4 +41,14 @@ export type Boat = {
             technicalFile?: string;
         }
     }
+};
+
+export type Fruit = {
+    id: number
+    name: string
+    description: string
+    roman_name: string
+    type: string
+    filename: string
+    technicalFile: string
 };
