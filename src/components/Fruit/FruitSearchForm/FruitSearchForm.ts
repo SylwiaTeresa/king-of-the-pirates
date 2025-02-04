@@ -1,8 +1,9 @@
-// import { getFruit } from "../FruitAPI";
+// import { getOnePiece } from "../../../api/OnePieceAPI";
+// import { OnePiece } from "../../../types/OnePieceTypes";
 // import createFruitCard from "../../Card/FruitCard/FruitCard";
 // import "./FruitSearchForm.scss";
 
-// const createFruitSearchForm = () => {
+// const createSearchForm = () => {
 //     const divForm = document.createElement("div") as HTMLDivElement;
 //     divForm.classList.add("FruitSearchForm");
 //     divForm.innerHTML = `<h2>Search for Devil fruits</h2>`;
@@ -25,7 +26,7 @@
 //         const categorySelect = document.querySelector(".categorySelect") as HTMLSelectElement;
 //         console.log(categorySelect.value);
 
-//         const fruit = await getFruit(seaSearch, categorySelect.value);
+//         const fruit = await getOnePiece(seaSearch, categorySelect.value);
 //         console.log(fruit);
 
 //         const newCard = createFruitCard(fruit);
@@ -55,4 +56,4 @@
 //     return divForm;
 // };
 
-// export default createFruitSearchForm;
+// export default createSearchForm;
